@@ -1,0 +1,11 @@
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card:hover .card-content {
+    background-color: #00d1b2;
+}
+
+.card:hover p {
+    color: #fff;
+}

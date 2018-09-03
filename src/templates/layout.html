@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tankobon {% block subtitle %}{% endblock %}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        {% include 'layouts/_navbar.html' %}
+        <section class="section">
+            <div class="container">
+                {% block body %}{% endblock %}
+            </div>
+        </section>
+        {% include 'layouts/_footer.html' %}
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+</html>

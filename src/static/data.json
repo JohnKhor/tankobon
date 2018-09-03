@@ -1,0 +1,482 @@
+[
+   {
+      "name":"One Piece",
+      "abbr":"onepiece",
+      "ongoing":true,
+      "author":"Eiichiro Oda (Story & Art)"
+   },
+   {
+      "name":"Gintama",
+      "abbr":"gintama",
+      "ongoing":true,
+      "author":"Hideaki Sorachi (Story & Art)"
+   },
+   {
+      "name":"Hunter x Hunter",
+      "abbr":"hunter",
+      "ongoing":true,
+      "author":"Yoshihiro Togashi (Story & Art)"
+   },
+   {
+      "name":"Haikyuu!!",
+      "abbr":"haikyu",
+      "ongoing":true,
+      "author":"Haruichi Furudate (Story & Art)"
+   },
+   {
+      "name":"Shokugeki no Souma",
+      "abbr":"soma",
+      "ongoing":true,
+      "author":"Shun Saeki (Art), Yuuto Tsukuda (Story), Yuki Morisaki (Story)"
+   },
+   {
+      "name":"World Trigger",
+      "abbr":"world",
+      "ongoing":true,
+      "author":"Daisuke Ashihara (Story & Art)"
+   },
+   {
+      "name":"Hinomaruzumou",
+      "abbr":"hinomaru",
+      "ongoing":true,
+      "author":"Kawada (Story & Art)"
+   },
+   {
+      "name":"Boku no Hero Academia",
+      "abbr":"myhero",
+      "ongoing":true,
+      "author":"Kouhei Horikoshi (Story & Art)"
+   },
+   {
+      "name":"Black Clover",
+      "abbr":"bclover",
+      "ongoing":true,
+      "author":"Yuuki Tabata (Story & Art)"
+   },
+   {
+      "name":"Yuragi-sou no Yuuna-san",
+      "abbr":"yuragisou",
+      "ongoing":true,
+      "author":"Tadahiro Miura (Story & Art)"
+   },
+   {
+      "name":"Kimetsu no Yaiba",
+      "abbr":"kimetsu",
+      "ongoing":true,
+      "author":"Koyoharu Gotouge (Story & Art)"
+   },
+   {
+      "name":"Boruto: Naruto Next Generations",
+      "abbr":"boruto",
+      "ongoing":true,
+      "author":"Mikio Ikemoto (Art), Ukyou Kodachi (Story)"
+   },
+   {
+      "name":"Yakusoku no Neverland",
+      "abbr":"neverland",
+      "ongoing":true,
+      "author":"Posuka Demizu (Art), Kaiu Shirai (Story)"
+   },
+   {
+      "name":"Bokutachi wa Benkyou ga Dekinai",
+      "abbr":"bokuben",
+      "ongoing":true,
+      "author":"Taishi Tsutsui (Story & Art)"
+   },
+   {
+      "name":"Dr. Stone",
+      "abbr":"drstone",
+      "ongoing":true,
+      "author":"Riichiro Inagaki (Story), Boichi (Art)"
+   },
+   {
+      "name":"Act-age",
+      "abbr":"act-age",
+      "ongoing":true,
+      "author":"Tatsuya Matsuki (Story), Shiro Usazaki (Art)"
+   },
+   {
+      "name":"Jujutsu Kaisen",
+      "abbr":"jujutsu",
+      "ongoing":true,
+      "author":"Akutami Gege (Story & Art)"
+   },
+   {
+      "name":"紅葉の棋節",
+      "abbr":"momiji",
+      "ongoing":true,
+      "author":"里庄真芳"
+   },
+   {
+      "name":"キミを侵略せよ！",
+      "abbr":"shinryaku",
+      "ongoing":true,
+      "author":"稲岡和佐"
+   },
+   {
+      "name":"総合時間事業会社 代表取締役社長専属秘書 田中誠司",
+      "abbr":"tanakaseiji",
+      "ongoing":true,
+      "author":"天塚啓示"
+   },
+   {
+      "name":"Alice to Taiyou",
+      "abbr":"alice",
+      "ongoing":true,
+      "author":"Takahide Totsuno (Story & Art)"
+   },
+   {
+      "name":"Naruto",
+      "abbr":"naruto",
+      "ongoing":false,
+      "author":"Masashi Kishimoto (Story & Art)"
+   },
+   {
+      "name":"Bleach",
+      "abbr":"bleach",
+      "ongoing":false,
+      "author":"Tite Kubo (Story & Art)"
+   },
+   {
+      "name":"Kuroko no Basket",
+      "abbr":"kuroko",
+      "ongoing":false,
+      "author":"Tadatoshi Fujimaki (Story & Art)"
+   },
+   {
+      "name":"Kochira Katsushikaku Kameari Kouenmae Hashutsujo",
+      "abbr":"kochi",
+      "ongoing":false,
+      "author":"Osamu Akimoto (Story & Art)"
+   },
+   {
+      "name":"Toriko",
+      "abbr":"toriko",
+      "ongoing":false,
+      "author":"Mitsutoshi Shimabukuro (Story & Art)"
+   },
+   {
+      "name":"Beelzebub",
+      "abbr":"beelze",
+      "ongoing":false,
+      "author":"Ryuuhei Tamura (Story & Art)"
+   },
+   {
+      "name":"Nisekoi Doumei.",
+      "abbr":"nisekoi",
+      "ongoing":false,
+      "author":"Ayano (Art), Aoi Sakaki (Story)"
+   },
+   {
+      "name":"Ansatsu Kyoushitsu",
+      "abbr":"ansatsu",
+      "ongoing":false,
+      "author":"Yuusei Matsui (Story & Art)"
+   },
+   {
+      "name":"Soul Catcher(S)",
+      "abbr":"soul",
+      "ongoing":false,
+      "author":"Hideo Shinkai (Story & Art)"
+   },
+   {
+      "name":"Ginga Patrol Jaco",
+      "abbr":"jaco",
+      "ongoing":false,
+      "author":"Akira Toriyama (Story & Art)"
+   },
+   {
+      "name":"Kurokuroku",
+      "abbr":"kurokuro",
+      "ongoing":false,
+      "author":"Atsushi Nakamura (Story & Art)"
+   },
+   {
+      "name":"Hime-dol!!",
+      "abbr":"himedol",
+      "ongoing":false,
+      "author":"Kazuro Kyou (Story & Art)"
+   },
+   {
+      "name":"Hachi: Tokyo 23-ku",
+      "abbr":"hachi",
+      "ongoing":false,
+      "author":"Yoshiyuki Nishi (Story & Art)"
+   },
+   {
+      "name":"Koi no Cupid: Yakenohara Jin",
+      "abbr":"yakenohara",
+      "ongoing":false,
+      "author":"Tomohiro Hasegawa (Story & Art)"
+   },
+   {
+      "name":"Isobe Isobee Monogatari: Ukiyo wa Tsurai yo",
+      "abbr":"isobee",
+      "ongoing":false,
+      "author":"Ryou Nakama (Story & Art)"
+   },
+   {
+      "name":"Iron Knight",
+      "abbr":"ironknight",
+      "ongoing":false,
+      "author":"Tomohiro Yagi (Story & Art)"
+   },
+   {
+      "name":"Illegal Rare",
+      "abbr":"illegal",
+      "ongoing":false,
+      "author":"Hiroshi Shiibashi (Story & Art)"
+   },
+   {
+      "name":"iShoujo",
+      "abbr":"ishojo",
+      "ongoing":false,
+      "author":"Toshinori Takayama (Story & Art)"
+   },
+   {
+      "name":"Stealth Symphony",
+      "abbr":"stealth",
+      "ongoing":false,
+      "author":"Ryohgo Narita (Story), Youichi Amano (Art)"
+   },
+   {
+      "name":"Tokyo Wonder Boys",
+      "abbr":"twb",
+      "ongoing":false,
+      "author":"Tsunehiro Date (Art), Kento Shimoyama (Story)"
+   },
+   {
+      "name":"Mitsukubi Condor",
+      "abbr":"condor",
+      "ongoing":false,
+      "author":"Ryou Ishiyama (Story & Art)"
+   },
+   {
+      "name":"Yoakemono",
+      "abbr":"yoakemono",
+      "ongoing":false,
+      "author":"Yuusaku Shibata (Story & Art)"
+   },
+   {
+      "name":"Judos",
+      "abbr":"judos",
+      "ongoing":false,
+      "author":"Shinsuke Kondou (Story & Art)"
+   },
+   {
+      "name":"Hi-Fi Cluster",
+      "abbr":"hifi",
+      "ongoing":false,
+      "author":"Ippei Gotou (Story & Art)"
+   },
+   {
+      "name":"Sporting Salt: Shioya no Kaibougaku",
+      "abbr":"salt",
+      "ongoing":false,
+      "author":"Yuuto Kubota (Story & Art)"
+   },
+   {
+      "name":"Takujou no Ageha",
+      "abbr":"ageha",
+      "ongoing":false,
+      "author":"Itsuki Furuya (Story & Art)"
+   },
+   {
+      "name":"E\u2192Robot",
+      "abbr":"erobot",
+      "ongoing":false,
+      "author":"Ryouhei Yamamoto (Story & Art)"
+   },
+   {
+      "name":"Gakkyuu Houtei",
+      "abbr":"gakkyu",
+      "ongoing":false,
+      "author":"Takeshi Obata (Art), Nobuaki Enoki (Story)"
+   },
+   {
+      "name":"Kagamigami",
+      "abbr":"kagami",
+      "ongoing":false,
+      "author":"Toshiaki Iwashiro (Story & Art)"
+   },
+   {
+      "name":"Kaizou Ningen Roggy",
+      "abbr":"roggy",
+      "ongoing":false,
+      "author":"Yuu Miki (Story & Art)"
+   },
+   {
+      "name":"Ultra Battle Satellite",
+      "abbr":"ubs",
+      "ongoing":false,
+      "author":"Yuusuke Utsumi (Story & Art)"
+   },
+   {
+      "name":"Naruto Gaiden: Nanadaime Hokage to Akairo no Hanatsuzuki",
+      "abbr":"naruto-gaiden",
+      "ongoing":false,
+      "author":"Masashi Kishimoto (Story & Art)"
+   },
+   {
+      "name":"Sesuji wo Pin! to: Shikakou Kyougi Dance-bu e Youkoso",
+      "abbr":"sesuji",
+      "ongoing":false,
+      "author":"Takuma Yokota (Story & Art)"
+   },
+   {
+      "name":"Lady Justice",
+      "abbr":"lady-justice",
+      "ongoing":false,
+      "author":"Ken Ogino (Story & Art)"
+   },
+   {
+      "name":"Devily-man",
+      "abbr":"devilyman",
+      "ongoing":false,
+      "author":"Kentarou Fukuda (Story & Art)"
+   },
+   {
+      "name":"Best Blue",
+      "abbr":"bestblue",
+      "ongoing":false,
+      "author":"Masahiro Hirakata (Story & Art)"
+   },
+   {
+      "name":"Mononofu",
+      "abbr":"mononofu",
+      "ongoing":false,
+      "author":"Haruto Ikezawa (Story & Art)"
+   },
+   {
+      "name":"Samon-kun wa Summoner",
+      "abbr":"summoner",
+      "ongoing":false,
+      "author":"Shun Numa (Story & Art)"
+   },
+   {
+      "name":"Buddy Strike",
+      "abbr":"buddy-strike",
+      "ongoing":false,
+      "author":"KAITO (Story & Art)"
+   },
+   {
+      "name":"Takuan to Batsu no Nichijou Enmachou",
+      "abbr":"takuan",
+      "ongoing":false,
+      "author":"Kentarou Itani (Story & Art)"
+   },
+   {
+      "name":"Love Rush!",
+      "abbr":"loverush",
+      "ongoing":false,
+      "author":"Ryouhei Yamamoto (Story & Art)"
+   },
+   {
+      "name":"Red Sprite",
+      "abbr":"redsprite",
+      "ongoing":false,
+      "author":"Tomohiro Yagi (Story & Art)"
+   },
+   {
+      "name":"Ibitsu no Amalgam",
+      "abbr":"ibitsunoamalgam",
+      "ongoing":false,
+      "author":"Ryou Ishiyama (Story & Art)"
+   },
+   {
+      "name":"Demon's Plan",
+      "abbr":"demonsplan",
+      "ongoing":false,
+      "author":"Yoshimichi Okamoto (Story & Art)"
+   },
+   {
+      "name":"Ole Golazo",
+      "abbr":"oregorasso",
+      "ongoing":false,
+      "author":"Takamasa Moue (Story & Art)"
+   },
+   {
+      "name":"U19",
+      "abbr":"u19",
+      "ongoing":false,
+      "author":"Yuuji Kimura (Story & Art)"
+   },
+   {
+      "name":"Poro no Ryuugakuki",
+      "abbr":"poro",
+      "ongoing":false,
+      "author":"Hitsuji Gondaira (Story & Art)"
+   },
+   {
+      "name":"Harapeko no Marie",
+      "abbr":"marie",
+      "ongoing":false,
+      "author":"Ryuuhei Tamura (Story & Art)"
+   },
+   {
+      "name":"Shuudan!",
+      "abbr":"shudan",
+      "ongoing":false,
+      "author":"Takuma Yokota (Story & Art)"
+   },
+   {
+      "name":"Cross Account",
+      "abbr":"cross-account",
+      "ongoing":false,
+      "author":"Tsunehiro Date (Story & Art)"
+   },
+   {
+      "name":"Full Drive",
+      "abbr":"fulldrive",
+      "ongoing":false,
+      "author":"Genki Ono (Story & Art)"
+   },
+   {
+      "name":"Golem Hearts",
+      "abbr":"golemhearts",
+      "ongoing":false,
+      "author":"Gen Oosuga (Story & Art)"
+   },
+   {
+      "name":"Saiki Kusuo no \u03a8-nan",
+      "abbr":"saiki",
+      "ongoing":false,
+      "author":"Shuuichi Asou (Story & Art)"
+   },
+   {
+      "name":"Spring Weapon Number One",
+      "abbr":"numberone",
+      "ongoing":false,
+      "author":"Tomohiro Hasegawa (Story & Art)"
+   },
+   {
+      "name":"Bozebeats",
+      "abbr":"bozebeats",
+      "ongoing":false,
+      "author":"Ryouji Hirano (Story & Art)"
+   },
+   {
+      "name":"Tomatoypoo no Lycopene",
+      "abbr":"lycopene",
+      "ongoing":false,
+      "author":"Kouji Ooishi (Story & Art)"
+   },
+   {
+      "name":"Robot x Laserbeam",
+      "abbr":"robolb",
+      "ongoing":false,
+      "author":"Tadatoshi Fujimaki (Story & Art)"
+   },
+   {
+      "name":"Ziga",
+      "abbr":"ziga",
+      "ongoing":false,
+      "author":"Kentarou Hidano (Art), Rokurou Sano (Story)"
+   },
+   {
+      "name":"Noah's Notes",
+      "abbr":"noahs",
+      "ongoing":false,
+      "author":"Haruto Ikezawa (Story & Art)"
+   }
+]

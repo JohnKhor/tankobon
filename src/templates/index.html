@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+
+{% block subtitle %}{% if not ongoing %}- Completed Series{% endif %}{% endblock %}
+
+{% block body %}
+    {% if ongoing %}
+        <h1 class="title is-1">Ongoing Series</h1>
+    {% else %}
+        <h1 class="title is-1">Completed Series</h1>
+    {% endif %}
+
+    <div class="columns is-multiline is-mobile">
+        {% for series in all_series %}
+            {% if series['ongoing'] == ongoing %}
+                <div class="column is-half-mobile is-one-third-tablet is-one-fifth-desktop">
+                    <a href="{{ url_for('series', abbr=series['abbr']) }}">
+                        <div class="card has-background-white-bis">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="{{ url_for('static', filename='img/icons/' + series['abbr'] + '.jpg') }}">
+                                </figure>        
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4 is-size-5-mobile has-text-centered">
+                                    {{ series['name'] }}
+                                </p>
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    
+    <hr>
+
+    <div class="columns">
+        <div class="column is-8 is-offset-2">
+            <p class="title has-text-centered is-primary">>> 
+                {% if ongoing %}  
+                    <a href="{{ url_for('completed') }}">Check out completed series here</a>
+                {% else %}
+                    <a href="{{ url_for('index') }}">Check out ongoing series here</a>
+                {% endif %}
+            </p>
+        </div>
+    </div>
+{% endblock %}

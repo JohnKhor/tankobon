@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Manga covers
+src/static/img/*
+!src/static/img/logo.png

@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block subtitle %}
+    {% if not ongoing %}
+        - {{ series['name'] }}
+    {% endif %}
+{% endblock %}
+
+{% block body %}
+    <h1 class="title is-1">{{ series['name'] }}</h1>
+    <h2 class="subtitle is-3">{{ series['author'] }}</h2>
+    
+    {% if msg %}
+        <p class="subtitle is-4">{{ msg }}</p>
+    {% else %}
+        <div class="columns is-multiline is-mobile">
+            {% for image in images %}
+                <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+                    <figure class="image">
+                        <img src="{{ url_for('static', filename='img/' + series['abbr'] + '/' + image) }}">
+                    </figure>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    
+    {% include 'layouts/_pagination.html' %}
+{% endblock %}
