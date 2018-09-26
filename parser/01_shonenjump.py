@@ -11,6 +11,10 @@ ARCHIVES_URL = RENSAI_URL + 'archives.html'
 LIST_URL = RENSAI_URL + 'list/'
 
 def shonenjump():
+    # create image directory
+    IMG_DIR = 'img'
+    create_dir(IMG_DIR)
+
     rensai_soup = get_soup(get_content(RENSAI_URL))
     archives_soup = get_soup(get_content(ARCHIVES_URL))
 
@@ -18,8 +22,9 @@ def shonenjump():
     all_series = []
 
     # create icon directory
-    create_dir('icons')
-
+    ICONS_DIR = os.path.join(IMG_DIR, 'icons')
+    create_dir(ICONS_DIR)
+    
     for soup in [rensai_soup, archives_soup]:
         # ongoing series?
         ongoing = True if soup is rensai_soup else False
@@ -39,7 +44,7 @@ def shonenjump():
             # download icon
             img_src = link_tag.img['src']
             img_url = BASE_URL + img_src
-            file_path = os.path.join('icons', abbr + '.' + img_src.rsplit('.', 1)[1])
+            file_path = os.path.join(ICONS_DIR, abbr + '.' + img_src.rsplit('.', 1)[1])
             print(f'Downloading {file_path}...')
             write_image(img_url, file_path)
             
@@ -51,8 +56,9 @@ def shonenjump():
     save_json("data.json", all_series)
 
     for series in all_series:
-        # create directory
-        create_dir(series['abbr'])
+        # create directory for this series
+        series_dir = os.path.join(IMG_DIR, series['abbr'])
+        create_dir(series_dir)
             
         current_list_url = LIST_URL + series['abbr'] + '.html'
 
@@ -72,7 +78,7 @@ def shonenjump():
                 # download cover
                 img_src = dl.img['src']
                 img_url = BASE_URL + img_src
-                file_path = os.path.join(series['abbr'], img_src.rsplit('/', 1)[1])
+                file_path = os.path.join(series_dir, img_src.rsplit('/', 1)[1])
                 print(f'Downloading {file_path}...')
                 write_image(img_url, file_path)
 
