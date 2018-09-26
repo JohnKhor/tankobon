@@ -48,7 +48,12 @@ def series(abbr, page):
     
     for series in all_series:
         if series['abbr'] == abbr:
-            images = os.listdir(os.path.join(app.static_folder, "img/" + abbr))
+            try:
+                dir_path = os.path.join(app.static_folder, 'img', abbr)
+                images = os.listdir(dir_path)
+            except FileNotFoundError as e: # series that hasn't release any volume
+                msg = 'Currently no volumes are available.'
+                return render_template('series.html', series=series, msg=msg)
 
             total_volumes = len(images)
 
