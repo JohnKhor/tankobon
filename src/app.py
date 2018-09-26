@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 def load_data():
     file_path = os.path.join(app.static_folder, 'data.json')
-    with open(file_path, "r") as read_file:
+    with open(file_path, "r", encoding="utf8") as read_file:
         data = json.load(read_file)
     return data
 
