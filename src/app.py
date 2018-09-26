@@ -55,6 +55,8 @@ def series(abbr, page):
                 msg = 'Currently no volumes are available.'
                 return render_template('series.html', series=series, msg=msg)
 
+            images.sort()
+
             total_volumes = len(images)
 
             # series that hasn't release any volume
